@@ -23,7 +23,7 @@ print("You chose: ", user_input)
 
 computer_choice= random.choice(rps)
 print("The computer chose: " , computer_choice)
-
+print("----------------")
 
 
 if computer_choice==user_input:print("it's a tie")
