@@ -13,8 +13,8 @@ user_input= input("Please choose either 'rock', 'paper', or 'scissors' :")
 print("----------------")
 
 rps= ["rock","paper","scissors"]
-RPS= ["Rock", "Paper", "Scissors"]
-if user_input not in rps or RPS:
+RPS= ["Rock","Paper","Scissors"]
+if user_input not in rps and RPS:
     print("Please enter a valid option and try again")
     exit()
 
