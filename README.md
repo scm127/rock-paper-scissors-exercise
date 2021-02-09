@@ -26,7 +26,7 @@ pip install -r requirements.txt
 # Setup Username
 In the root directory of your local repository, create a new file called ".env", and update the contents of the ".env" file to specify your desired username:
 
-USER_NAME="Sean Minson"
+PLAYER_NAME="Sean Minson"
 
 # Run the Game Script:
 
