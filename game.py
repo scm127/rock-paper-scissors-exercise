@@ -11,8 +11,9 @@ print("----------------")
 
 user_input= input("Please choose either 'rock', 'paper', or 'scissors' :")
 print("----------------")
-
+print("is this upper",user_input)
 user_input.lower()
+print("is this upper",user_input)
 rps= ["rock","paper","scissors"]
 if user_input not in rps:
     print("Please enter a valid option and try again")
