@@ -1,5 +1,5 @@
 # rock-paper-scissors-exercise
-This Readme.md is adopted from Professor Rosetti's "Run the App Exercise". It explains how to clone the application, set up a username in a local development enviorment, and play rock, paper, scissors.  
+This Readme.md is adopted from Professor Rosetti's "Run the App Exercise". It explains how to clone the repository, set up a username in a local development enviorment, and play rock, paper, scissors.  
 
 # Prerequisites:
 ```sh
@@ -32,9 +32,9 @@ In the root directory of your local repository, create a new file called ".env",
 
 PLAYER_NAME="Sean Minson"
 
-# Run the Game Script from the command line:
+# Run the Game Script and Play from the command line:
 ```sh
 python game.py
 ```
-
+Note that if anything other than "rock", "paper", or "scissors" is entered, it will be invalid and you will have to run the game again. 
 
