@@ -34,8 +34,6 @@ elif user_input == "rock" and computer_choice == "paper": print("Oh! The compute
 elif user_input == "rock" and computer_choice == "scissors": print("You win! Congrats")
 elif user_input == "scissors" and computer_choice == "paper": print("You win! Congrats")
 elif user_input == "scissors" and computer_choice == "rock": print("Oh! The computer won, that's ok!")
-
-if computer_choice==user_input:print("it's a tie")
 elif user_input == "Paper" and computer_choice == "rock": print("You win! Congrats")
 elif user_input == "Paper" and computer_choice == "scissors": print("Oh! The computer won, that's ok!")
 elif user_input == "Rock" and computer_choice == "paper": print("Oh! The computer won, that's ok!")
