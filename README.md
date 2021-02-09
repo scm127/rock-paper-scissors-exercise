@@ -28,7 +28,7 @@ In the root directory of your local repository, create a new file called ".env",
 
 PLAYER_NAME="Sean Minson"
 
-# Run the Game Script:
+# Run the Game Script from the command line:
 
 python game.py
 
