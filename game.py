@@ -14,7 +14,7 @@ print("----------------")
 
 rps= ["rock","paper","scissors"]
 RPS= ["Rock", "Paper", "Scissors"]
-if user_input not in rps and RPS:
+if user_input not in rps or RPS:
     print("Please enter a valid option and try again")
     exit()
 
